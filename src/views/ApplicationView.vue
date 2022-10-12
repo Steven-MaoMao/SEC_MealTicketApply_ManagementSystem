@@ -366,8 +366,8 @@ export default {
         value: '通过',
         label: '通过'
       }, {
-        value: '未通过',
-        label: '未通过'
+        value: '不通过',
+        label: '不通过'
       }],
       // 添加申请
       newApplicationForm: {

@@ -65,7 +65,7 @@
                     type="primary"
                     @click="showUpdateTicket"
                     :disabled="isSelectRow()"
-                    >修改申请信息</el-button
+                    >修改饭票信息</el-button
                     >
                     <el-button @click="reset">重置</el-button>
                 </div>
@@ -225,8 +225,8 @@ export default {
         value: '通过',
         label: '通过'
       }, {
-        value: '未通过',
-        label: '未通过'
+        value: '不通过',
+        label: '不通过'
       }, {
         value: '作废',
         label: '作废'
